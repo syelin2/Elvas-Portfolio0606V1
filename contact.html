@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <!-- 10/19 -->
+  <meta name="referrer" content="origin">
+  <title>replit</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-
+awesome/4.7.0/css/font-awesome.min.css">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div id="wrapper">
+    <header>
+      <img src="img/logo.png" alt="Ella Logo" class="logo">
+      <h1>Elva's Website</h1>
+    </header>
+    <nav>
+      <div class="menu-icon" id="menu-icon">
+        <i class="fa fa-bars"></i>
+      </div>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href='https://www.google.com/' target="_blank">Visit Google</a></li>
+        <!-- <a href='education.html'>Education</a> &nbsp; &nbsp;
+      <a href='project.html'>Projects</a> &nbsp; &nbsp;
+      <a href='contact.html'>Contact Me</a> &nbsp; &nbsp; -->
+        <li><a href='index.html'>Home</a></li>
+        <li><a href='education.html'>Education</a></li>
+        <li><a href='projects.html'>Projects</a></li>
+        <li><a href='resume.html'>Resume</a></li>
+        <li><a class="active" href='contact.html'>Contact Me</a></li>
+      </ul>
+    </nav>
+    <!-- <div align='center'> -->
+    <!-- 9/19 -->
+    <div class="imgcontainer">
+      <div id="contacthero">
+        <div class="centered">
+          <h1>Contact Me</h1>
+          <!-- <p>I'm
+            <span class="auto-type"></span>
+          </p> -->
+        </div>
+      </div>
+    </div>
+      <!-- <img src="Professor Elva.png" alt="Elva at Japan" title="Elva at Japan with a group of elementary students" -->
+        <!-- width="800px" height="500px"> -->
+    <!-- </div> -->
+    <!-- 10/19 set up formspree here https://formspree.io/html/  -->
+    <main>
+      <section class="oddrow" id="contact">
+        <h1>Contact Me: </h1>
+        <h3 align="center">All the * fields are required</h3>
+        <!-- 10/19 -->
+        <form method="POST" id="contactForm" 
+          action="https://formspree.io/selin2@asu.edu">
+          <!-- First name  -->
+          <label for="fname">*First Name:</label>
+          <!-- <input type="text" name="fname" id="fname" value="Enter your first name"> -->
+          <input type="text" name="fname" id="fname" required>
+          <!-- Last name -->
+          <label for='lanme'>*Last name:</label>
+          <input type="text" name="lname" id="lname" required>
+          <label for='email'>*Email:</label>
+          <input type="email" name="email" id="email" required>
+          <!-- Radio buttons -->
+          <!-- <label for='user'>You are a:</label>
+          <div class="form-container">
+            <input type="radio" id='new' name="user" value="new_user">
+            <label for="new">New User</label>
+            <input type="radio" id='existing' name="user" value="existing_user">
+            <label for="existing">Existing User</label>
+          </div> -->
+          <!-- Select drop-down list -->
+          <!-- <label for="campus">Select a campus: </label>
+          <select name="campus">
+            <option value="t">Tempe</option>
+            <option value="w">West</option>
+            <option value="p">Poly</option>
+          </select> -->
+          <!-- checkboxes -->
+          <!-- <label for="transportation">Check the vehicles you own: </label>
+          <div class="form-container">
+            <input type="checkbox" name="vehicle1" value="bike">I have a bike
+            <input type="checkbox" name="vehicle2" value="car">I have a car
+            <input type="checkbox" name="vehicle3" value="boat">I have a boat
+          </div> -->
+          <!-- message/comment -->
+          <label for="message">Message/comments: </label>
+          <textarea rows="5" cols="20" name="message">Comments</textarea>
+
+          <!-- buttons in the same row -->
+          <div class="button-container">
+            <input type="submit" value="Submit">
+            <input type="reset" value="Clear">
+          </div>
+
+          <!-- buttons -->
+          <!-- <button type="reset">Cancel</button>  -->
+        </form>
+        <!-- add a form later  -->
+      </section>
+    </main>
+    <footer align='center'>
+      <p><i><small>Copyright &copy; Elva Lin<br>
+            <a href="mailto:Elva.Lin@asu.edu" style="color: white;">elva.lin@asu.edu</a>
+<br>
+          </small></i></p>
+      <div class="socialMediaLinks">
+      <small><i><a href="https://twitter.com" class="fa fa-twitter" target="_blank"></a>
+<a href="https://facebook.com" class="fa fa-facebook-f" target="_blank"></a>
+<a href="https://github.io" class="fa fa-brand fa-github" target="_blank"></a>
+<a href="https://instagram.com" class="fa fa-instagram" target="_blank"></a>
+<a href="https://linkedin.com" class="fa fa-linkedin" target="_blank">
+</a></i></small>
+      </div>
+
+    </footer>
+  </div>
+  <script src="script.js"></script>
+
+  
+
+</body>
+
+</html>
