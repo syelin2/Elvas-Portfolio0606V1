@@ -1,0 +1,1 @@
+This project is a portfolio website built for course demonstration purposes. I designed and coded the site using HTML5 and CSS3, focusing on accessibility, responsive layout, and visual clarity.
