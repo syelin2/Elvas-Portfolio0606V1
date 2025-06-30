@@ -12,9 +12,14 @@ li { */
   padding: 0;
 }
 
+h1 {
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
 body {
   /* background-color: tan; */
-  background-image: url(img/bg.png);
+  background-image: url(img/bg.jpg); /* Added background image */
   background-size: cover; /* Added to make the background image cover the entire body */
   background-repeat: no-repeat;
   color: #555555; 
@@ -104,8 +109,8 @@ nav a.active {
 
 /* 9/14 */
 #homehero {
-  height: 700px;
-  background-image: url(img/ProfessorElva.png);
+  aspect-ratio: 1200 / 800;
+  background-image: url(img/ProfessorElva.webp);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   position: relative; 
@@ -187,10 +192,23 @@ section.evenrow {
   background-color: #18bc9c; 
 }
 
-section.oddrow {
+/* section.oddrow {
   color: white;
   background-color:coral; 
+} */
+
+/* 6/22 */
+section.oddrow {
+  background-color: coral;
+  color: #000;   /* black text gives ~8.4:1 contrast */
 }
+
+section.oddrow h1,
+section.oddrow p,
+section.oddrow strong {
+  color: #000;
+}
+
 
 table, th, td {
   border: 1px solid black;
@@ -257,19 +275,39 @@ footer {
 }
 
 footer p {
-  margin: 0 0 10px 0;
+  margin: 0 0 20px 0;
 }
 
-.socialMediaLinks a {
+/* .socialMediaLinks a {
   font-size: 20px;
-  margin: 0 10px 0 0;
+  margin: 10px 10px 0 0;
   text-decoration: none;
   background-color: white;
   padding: 10px;
   width: 40px;
   text-align: center;
   border-radius: 50%;
+} */
+
+/* 6/21 */
+.socialMediaLinks a {
+  display: inline-flex;              /* use flex to center the <i> */
+  align-items: center;
+  justify-content: center;
+
+  width: 50px;                       /* fixed circle size */
+  height: 50px;
+
+  margin-right: 10px;
+  background: white;
+  border-radius: 50%;
+  text-decoration: none;
 }
+
+.socialMediaLinks a i {
+  font-size: 1.25rem;                /* all icons same size */
+}
+
 
 /* 10/2 */
 .menu-icon {
