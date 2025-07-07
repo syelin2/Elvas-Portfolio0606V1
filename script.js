@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // Initialize the Typed.js library
   let typed = new Typed(".auto-type", {
-    strings: ["Professor", "Educator"],
+    strings: ["a Professor", "an Educator"],
     typeSpeed: 150,
     backSpeed: 150,
     loop: true
